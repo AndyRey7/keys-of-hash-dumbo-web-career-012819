@@ -7,4 +7,4 @@ class Hash
     end
   end
 end
-keys_of
+puts keys_of

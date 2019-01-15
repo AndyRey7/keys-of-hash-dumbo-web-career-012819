@@ -1,5 +1,8 @@
+require "pry"
 class Hash
   def keys_of(arguments)
-    # code goes here
+    Hash.each do |key, value|
+      binding.pry
   end
 end
+keys_of(arguments)
